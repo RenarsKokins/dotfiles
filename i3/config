@@ -390,7 +390,7 @@ exec --no-startup-id sleep 1 && nitrogen --restore
 #exec --no-startup-id feh --bg-fill /usr/share/endeavouros/backgrounds/endeavouros_i3.png
 
 # launch redshift
-exec_always --no-startup-id redshift-gtk -l 56.8:24.6 &
+exec --no-startup-id redshift-gtk -l 56.8:24.6
 
 # set powersavings for display:
 #exec --no-startup-id xset s 480 dpms 600 600 600
