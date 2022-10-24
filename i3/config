@@ -485,13 +485,14 @@ set $grey		    #b0b5bd
 set $blue       #1F7FED
 set $pink       #ED1FC5
 set $purple     #D31FED
+set $orange     #FF7C29
 
 # define colors for windows:
 #class		        	    border		bground		text		indicator	child_border
-client.focused		    	$pink	    $pink       $white		$pink       $pink
-client.unfocused	    	$blue   	$blue    	$white      $pink       $darkgrey
+client.focused		    	$orange     $orange     $white		$orange     $orange
+client.unfocused	    	$blue   	$blue    	$white      $orange     $darkgrey
 client.focused_inactive		$blue   	$darkblue	$white      $black		$darkgrey
-client.urgent		    	$pink	    $purple     $white		$pink	    $purple
+client.urgent		    	$orange	    $purple     $white		$orange	    $purple
 
 ############################################
 #               Start polybar              #
